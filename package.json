@@ -1,7 +1,7 @@
 {
   "name": "challenge-server",
   "version": "1.0.0",
-  "description": "The challenge API for Okta.",
+  "description": "The Okta challenge API.",
   "main": "./src/index.js",
   "engines": {
     "node": "10.11.0"
