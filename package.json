@@ -1,0 +1,32 @@
+{
+  "name": "challenge-server",
+  "version": "1.0.0",
+  "description": "The challenge API for Okta.",
+  "main": "./src/index.js",
+  "engines": {
+    "node": "10.11.0"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oktadeveloper/challenge-server.git"
+  },
+  "author": "Randall Degges",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/oktadeveloper/challenge-server/issues"
+  },
+  "homepage": "https://github.com/oktadeveloper/challenge-server#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "@sendgrid/mail": "^6.3.1",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "pg": "^7.6.1",
+    "sequelize": "^4.41.2"
+  }
+}
